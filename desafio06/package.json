@@ -2,15 +2,15 @@
   "name": "desafiomarlon",
   "version": "1.0.0",
   "description": "",
-  "main": "desafio1.js",
-  "type": "module",
+  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

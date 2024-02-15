@@ -1,4 +1,5 @@
 //cli → Significa Interface de linha de comando
+
 import { createInterface } from 'node:readline/promises';
 import { stdin as i, stdout as o } from 'node:process';
 
@@ -17,7 +18,7 @@ class Cadastro {
     this.pessoas = []
   }
   async cadastrar() {
-    let nome = await rl.question("Digite seu nome: ")
+    let nome = await rl.question("Digite seu nome: ")    
     // verificar se o nome atende aos criterios
     let email = await rl.question("Digite seu E-mail: ")
     // verificar se o email atende aos criterios

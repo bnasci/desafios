@@ -15,7 +15,7 @@ function validacao(){
     let condicao1 = 'd';
     let texto = 'O rato roeu a roupa do rei de roma';
     let resultado = contarR(texto, condicao1);
-    resultado === 2? console.log('PASSOU'):console.log('NÃO PASSOU');  // aqui eu use o operador ternário
+    resultado === 2? console.log('PASSOU'):console.log('NÃO PASSOU');  // aqui eu usei o operador ternário
 }
     validacao();
 
